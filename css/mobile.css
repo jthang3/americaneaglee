@@ -1,0 +1,228 @@
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+
+
+    #beautiful {
+        width: 90%;
+    }
+    .login-links > li > a {
+        font-size: 30px;
+        font-style: italic;
+    }
+    #registry {
+        padding-left: 20%;
+    }
+    .header-middle .login-links {
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-top {
+        margin-left: 50px;
+    }
+    .contact-box > p > em {
+        font-size: 35px;
+    }
+    .contact-box > p > em > strong {
+        font-size: 35px;
+    }
+    .shopping-icon {
+        width: 55px;
+    }
+    .hamburger-menu-container {
+        margin-right: 55px;
+    }
+    .hamburger-menu {
+        width: 55px;      
+    }
+    .hamburger-menu::before {
+        top: -12px;
+    }
+    .hamburger-menu::after {
+        top: 12px;
+    }
+    .hamburger-menu {
+        height: 5px;
+    }
+
+    /*--------search ----------------*/
+
+    #headerMenuSiteSeach {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .search-icon {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 5px;
+        right: 50px;
+    }
+
+    /*----------------------Navigation --------------------------------*/
+    .main-navigation {
+        font-size: 25px;
+    }
+
+    .item__image {
+        width: 90%;
+    }
+    .item__title {
+        max-width: none;
+        width: 85%;
+    }
+
+    .button .button--primary {
+        width: 50%
+    }
+
+    .featured-widget__header > a {
+        font-size: 25px;
+    }
+    .wysiwyg > p {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .wysiwyg > h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+
+    .wysiwyg > p {
+        margin-left: 10px;
+    }
+    .page-footer__column {
+        max-width: none;
+        width: 100%;
+    }
+    .toggle-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .expander__toggle {
+        cursor: pointer;
+        max-width: 100%;
+        height: auto;
+        border: none;
+        outline: none;
+        margin-left: 10px;
+    }
+    .toggle-container {
+        border-bottom: 2px solid #e6e6e6;
+    }
+    .toggle-container > h2 {
+        font-size: 45px;
+    }
+    .expander_panel-close {
+        display: none;
+    }
+
+    .toggle-container > .plus {
+        display: block;
+    }
+
+    .social-list {
+        justify-content: space-between;
+    }
+
+    .social-list > li > a > img {
+        width: 100px;
+    }
+    .site-social > h2 {
+        margin-bottom: 40px;
+    }
+    #siteNewsletterEmail {
+        width: 50%;
+        font-size: 40px;
+        padding: 20px;
+    }
+    .email-container > button {
+        margin-left: 10px;
+        width: 25%;
+        font-size: 40px;
+        padding: 20px;
+        height: 90px;
+    }
+
+    /*----------------------footer-------------------------------------*/
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .site-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-logo > img {
+        width: 50%;
+    }
+    .ae-logo > img {
+        width: 250px;
+    }
+    .copyright {
+        font-size: 25px !important;
+    }
+    .last-footer {
+        min-width: 910px
+    }
+  }
+
+  @media (max-width:63.9em){
+    .toggle-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .toggle-container > .plus {
+        display: block;
+    }
+    .expander__toggle {
+        cursor: pointer;
+        max-width: 100%;
+        height: auto;
+        border: none;
+        outline: none;
+        margin-left: 10px;
+    }
+    .toggle-container {
+        border-bottom: 2px solid #e6e6e6;
+    }
+    .toggle-container > h2 {
+        font-size: 35px;
+    }
+    .expander_panel-close {
+        display: none;
+    }
+
+    /*-------------Footer -----------------------------*/
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .site-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .site-logo > img {
+        width: 50%;
+    }
+    .ae-logo > img {
+        width: 250px;
+    }
+    .copyright {
+        font-size: 80%;
+    }
+  }
